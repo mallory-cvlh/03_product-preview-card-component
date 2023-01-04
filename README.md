@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/mallory-cvlh/03_product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live](https://mallory-cvlh.github.io/03_product-preview-card-component/)
 
 ## My process
 
