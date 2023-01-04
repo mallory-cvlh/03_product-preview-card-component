@@ -64,7 +64,7 @@ body {
 }
 
 /* || IMAGE */
-.hero, .hero img {
+.hero, .mobile {
     border-radius: 10px 10px 0 0;
 }
 
@@ -90,7 +90,6 @@ h2 {
 .description {
     font-size: 0.9rem;
     line-height: 1.5;
-    
 }
 
 /* PRICE */
@@ -147,6 +146,30 @@ footer a {
 }
 
 /* || RESPONSIVE */
+/* HERO IMAGE */
 .desktop {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        border-radius: 10px 0 0 10px;
+        display: block;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        max-width: 700px;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .description {
+        width: 90%;
+    }
 }
