@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz@1,9..144&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap');
 
 /* || RESET */
 *,
@@ -15,11 +15,16 @@ img {
     max-width: 100%;
 }
 
+button { 
+    font: inherit;
+}
+
 /* || VARIABLES */
 :root {
     /* FONTS */
-    --FS-FRAUNCES: 'Fraunces', serif;
-    --FS-MONTSERRAT: 'Montserrat', sans-serif;
+    --FF-FRAUNCES: 'Fraunces', serif;
+    --FF-MONTSERRAT: 'Montserrat', sans-serif;
+    --FW-BOLD: 700;
 
     /* COLORS */
     --DARK-CYAN: hsl(158, 36%, 37%);
@@ -35,4 +40,113 @@ img {
     position: absolute;
 }
 
+.grayish {
+    color: var(--GRAYISH-BLUE);
+}
+
 /* || GENERAL STYLES */
+html {
+    background: var(--CREAM);
+    font-family: var(--FF-MONTSERRAT);
+    font-weight: 500;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
+
+.container {
+    background: var(--WHITE);
+    border-radius: 10px;
+    max-width: 350px;
+}
+
+/* || IMAGE */
+.hero, .hero img {
+    border-radius: 10px 10px 0 0;
+}
+
+/* || SECTION */
+section {
+    padding: 1.5rem;
+}
+
+.perfume {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: var(--FF-FRAUNCES);
+    font-size: 2.25rem;
+    font-weight: var(--FW-BOLD);
+    line-height: 1;
+    padding: 1rem 0;
+}
+
+.description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    
+}
+
+/* PRICE */
+.price {
+    align-items: center;
+    display: flex;
+    padding: 1rem 0;
+}
+
+.price-left {
+    color: var(--DARK-CYAN);
+    font-family: var(--FF-FRAUNCES);
+    font-size: 2rem;
+    font-weight: var(--FW-BOLD);
+    padding-right: 1.5rem;
+}
+
+.price-right {
+    font-size: 0.85rem;
+    text-decoration: line-through;
+}
+
+/* BUTTON */
+button {
+    background: var(--DARK-CYAN);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+button figure {
+    align-items: center;
+    color: var(--WHITE);
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+button figure figcaption {
+    font-size: 0.9rem;
+    font-weight: var(--FW-BOLD);
+    padding: 0.15rem 0 0 1rem;
+}
+
+/* || FOOTER */
+footer {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+footer a {
+    color: var(--DARK-BLUE);
+    font-weight: var(--FW-BOLD);
+}
+
+/* || RESPONSIVE */
+.desktop {
+    display: none;
+}
