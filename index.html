@@ -2,57 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="mallory-cvlh">
-    <meta name="description" content="Product Preview Card Component">
-    <title>Product Preview</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="mallory-cvlh">
+	<meta name="description" content="Frontend Mentor Product preview card component">
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+		rel="stylesheet">
+	<!-- TITLE ICON CSS -->
+	<title>Frontend Mentor | Product preview card component</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="sr-only">
-        <h1>Product Preview Card Component</h1>
-    </header>
+	<main>
+		<article class="product">
+			<picture class="product__img">
+				<source media="(min-width: 576px)" srcset="img/image-product-desktop.jpg">
+				<img src="img/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum Mobile Version" width="686"
+					height="480">
+			</picture>
+			<section class="product__content">
+				<p class="product__category">Perfume</p>
+				<h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
+				<p>
+					A floral, solar and voluptuous interpretation composed by Olivier Polge,
+					Perfumer-Creator for the House of CHANEL.
+				</p>
+				<section class="product__price">
+					<p class="product__new-price">$149.99</p>
+					<p class="product__old-price">$169.99</p>
+				</section>
+				<button class="product__button" data-icon="icon-cart">Add to Cart</button>
+			</section>
+		</article>
+	</main>
 
-    <main class="container">
-        <figure class="hero">
-            <img class="mobile" src="img/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum CHANNEL"
-                title="Gabrielle CHANNEL" width="686" height="480">
-            <img class="desktop" src="img/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum CHANNEL"
-                title="Gabrielle CHANNEL" width="600" height="900">
-        </figure>
-        <section>
-            <p class="perfume grayish"> perfume </p>
-            <h2> Gabrielle Essence Eau De Parfum </h2>
-            <p class="description grayish">
-                A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House
-                of CHANEL.
-            </p>
-            <div class="price">
-                <p class="price-left">
-                    $149.99
-                </p>
-                <p class="price-right grayish">
-                    $169.99
-                </p>
-            </div>
-            <button>
-                <figure>
-                    <img src="img/icon-cart.svg" alt="Cart Icon" width="15" height="16">
-                    <figcaption>Add to Cart</figcaption>
-                </figure>
-            </button>
-        </section>
-    </main>
-
-    <footer>
-        <p>
-            <a href="https://github.com/mallory-cvlh">mallory-cvlh</a>
-        </p>
-    </footer>
+	<footer>
+		<p>
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+			Coded by <a href="https://github.com/mallory-cvlh">mallory-cvlh</a>.
+		</p>
+	</footer>
 </body>
 
 </html>

@@ -62,7 +62,9 @@ I would like to improve several points in css like :
 
 - [Button](https://www.w3schools.com/css/css3_buttons.asp) - This helped me for the button size. 
 - [Breakpoints](https://github.com/mallory-cvlh/03_product-preview-card-component/blob/main/img/breakpoints.png) - This helped me for the media queries.
-- [Figure](https://www.alsacreations.com/article/lire/1337-html5-elements-figure-et-figcaption.html) - This helped me about the use of the figure element. 
+- [Picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) - This helped me about the use of the picture element. 
+- [Data-icon](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) - This helped me about the use of the data-icon attribute. 
+- [Size](https://nekocalc.com/fr/px-a-rem-convertisseur) - This helped me about the responsive design.
 
 ## Author
 
