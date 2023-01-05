@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/77162992/210515571-9cc57361-0103-494b-b38a-4801c86b8ae3.png)
+![](https://github.com/mallory-cvlh/03_product-preview-card-component/blob/main/img/screenshot.png)
 
 
 ### Links
